@@ -38,4 +38,37 @@ console.log(nome1, sobrenome, 'tem', idade, 'anos, pesa', peso, 'tem', alturaEmM
 
 //template string
 
-console.log(`${nome1} sobrenome tem idade anos, pesa peso tem alturaEmMetros de altura e seu IMC é de indiceMassaCorporal e seu ano de nascimento é anoNascimento')
+console.log(`${nome1} ${sobrenome} tem ${idade} anos, pesa ${peso} tem ${alturaEmMetros} de altura e seu IMC é de ${indiceMassaCorporal} e seu ano de nascimento é ${anoNascimento}`)
+
+// scape
+let umaString = "Um \"texto\""
+
+console.log(umaString)
+
+let stringEx = "texto de exemplo"
+console.log(stringEx[2])
+
+console.log(stringEx.charAt(3))
+
+console.log(stringEx.concat(" aloha", " ahore"))
+console.log(stringEx + " aloha" + " 50")
+
+console.log(stringEx.indexOf("de"))
+console.log(stringEx.indexOf("de", 7))
+console.log(stringEx.lastIndexOf("t", 3))
+
+console.log(stringEx.match(/[a-z]/g))
+console.log(stringEx.search(/x/))
+
+console.log(stringEx.replace('de', 'fogo'))
+console.log(stringEx.replace(/e/g, 'I'))
+
+console.log(stringEx.length)
+
+console.log(stringEx.slice(0, 5))
+
+console.log(stringEx.split('t'))
+console.log(stringEx.split('t', 2))
+
+console.log(stringEx.toUpperCase())
+console.log(stringEx.toLowerCase())
