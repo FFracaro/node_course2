@@ -21,3 +21,17 @@ console.log(10 === '10') //false
  * ! 
  */
 
+console.log('string1' && 0 && 'string2') // 0 é false e o retorno
+
+console.log('string1' && true && 'string2') // tudo é verdadeiro, retorna o último valor
+
+console.log('string1' && 0 && false) 
+
+/**
+ * FALSY values
+ * 
+ * 0
+ * '' "" ``
+ * null / undefined
+ * NaN
+ */

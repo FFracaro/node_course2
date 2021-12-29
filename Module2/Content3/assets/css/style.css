@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+:root{
+    --primary-color: rgb(250, 227, 160);
+    --primary-color-darker: rgb(255, 218, 109);
+    --primary-color-end: rgb(231, 191, 69);
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background: rgb(255, 247, 220);
+    padding: 20px;
+}
+
+form input, form label, form button{
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus{
+    outline: 2px solid var(--primary-color);
+}
+
+form button{
+    border: none;
+    background: var(--primary-color);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background: var(--primary-color-darker);
+}
+
+form button:active{
+    background: var(--primary-color-end);
+}
+
+td:first-child {width: 300px;}
+
+.paragrafo-resultado, .err{
+    background: rgb(147, 255, 114);
+    padding: 10px 20px;
+}
+
+.err{
+    background: rgb(251, 151, 151);
+}
