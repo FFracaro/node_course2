@@ -35,3 +35,23 @@ console.log('string1' && 0 && false)
  * null / undefined
  * NaN
  */
+
+/**
+ * FOR IN E FOR ON
+ */
+
+const aa = [10, 20, 30, 40, 50];
+
+for(let chave in aa)
+{
+    console.log(aa[chave])
+}
+
+for(let valor of aa)
+{
+    console.log(valor)
+}
+
+aa.forEach((value, key) => {
+    console.log(value, key)
+})
