@@ -1,3 +1,4 @@
+//Calculadora com função construtora
 function calculator(){
     return {
 
@@ -30,7 +31,7 @@ function calculator(){
         //Não usar eval
         calculate(){
             let conta = this.display.value;
-            
+
             try {
                 conta = eval(conta);
 
